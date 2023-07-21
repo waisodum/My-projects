@@ -16,7 +16,7 @@ display: flex;
 box-shadow: 0px 3px 10px gray;
 }
 .container{ 
-overflow: scroll;
+overflow-y: scroll;
 border: 1px solid black;
 height: 72%;
 border-top: none;
@@ -37,6 +37,7 @@ border-top: none;
      padding: 10px;
      margin: 10px;
     border-radius:5px;
+    overflow-wrap: break-word;
 }
 .center{background-color: cyan;
     margin: 5px auto;
