@@ -1,0 +1,85 @@
+#nvbr{
+    width:30vh;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    margin-left:-35vw ;
+    background-color: rgb(36, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: margin 0.1s linear;
+}
+
+.hamburger{
+    position: absolute;
+    width :10vh;
+    /* height: 10vh; */
+    /* background-color: aliceblue; */
+    z-index: 3;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.hamburger span{
+    width: 70%;
+    height: 10px;
+    display: block;
+    background-color: aliceblue;
+    margin: 5px;
+}
+ .container div a{
+     text-decoration: none;
+     color: aliceblue;
+    /* margin-left: auto; */
+    margin: 32px 10px;
+    font-size:20px ;
+}
+.container div{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s linear;
+    padding: 0px 5px;
+    margin: auto;
+    margin-bottom: 4px;
+}
+.nvitems{
+    border-radius: 30px;
+}
+ .nvitems:hover{
+    background-color:rgb(233, 222, 222);
+ }
+ .container{
+    /* border: 2px solid red; */
+    padding: 9px 15px;
+    display: flex;
+    flex-direction:column ;
+align-items: center; }
+.img{
+    width: 40%;
+}
+.center{
+margin: auto;}
+#linkedin{
+    width: 35%;
+    border-radius: 10px;
+}
+.nun{
+    display: none;
+}
+
+.h span { margin-top:calc(11*1.4px);
+        position: absolute;
+    transition: rotate 0.2s linear;
+    
+}
+.h span:nth-child(2) {
+rotate: 45deg;
+}
+.h span:nth-child(3){
+    rotate: -45deg;
+}
+
+.h span:nth-child(1){
+    visibility: hidden;}
