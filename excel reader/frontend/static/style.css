@@ -1,0 +1,11 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.by{
+    height: 100px;
+width: 200px;
+border: 2px solid black;
+}
