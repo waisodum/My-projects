@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .movie {
+    padding: 10px;
+    /* height: 450px; */
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin: 5px;
+  }
+  .img{
+    margin: auto;
+  }
+  
+  .discription{
+    padding: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    z-index: 999;
+    position: fixed;
+    top: 30px;
+    margin: auto;
+ width: 400px;
+border: 2px solid black;
+border-radius:10px;}
